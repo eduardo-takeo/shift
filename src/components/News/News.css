@@ -1,0 +1,23 @@
+.news {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.author {
+    font-size: .7rem;
+    opacity: .6;
+    display: inline-block;
+}

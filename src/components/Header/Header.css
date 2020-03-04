@@ -22,9 +22,3 @@ header {
     display: inline-block;
     margin: .6rem 1rem;
 }
-
-.categories-item:link,
-.categories-item:visited {
-    text-decoration: none;
-    color: #000;
-}

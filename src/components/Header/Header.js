@@ -5,7 +5,7 @@ function Header() {
     return(
         <header>
             <div className="date">{getDate()}</div>
-            <div className="logo">Shift</div>
+            <div className="logo">*insert dope logo here*</div>
             <div className="categories">
                 <ul>
                     <a href="#" className="categories-item">General</a>
