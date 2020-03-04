@@ -1,0 +1,30 @@
+header {
+    font-size: .8rem;
+}
+
+.date {
+    position: absolute;
+    top: 5rem;
+}
+
+.logo {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.categories {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid #000;
+}
+
+.categories-item {
+    display: inline-block;
+    margin: .6rem 1rem;
+}
+
+.categories-item:link,
+.categories-item:visited {
+    text-decoration: none;
+    color: #000;
+}
