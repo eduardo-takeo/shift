@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import {Link} from 'react-router-dom';
 
 function Header() {
     return(
@@ -8,13 +9,24 @@ function Header() {
             <div className="logo">Shift.</div>
             <div className="categories">
                 <ul>
-                    <a href="#" className="categories-item">General</a>
-                    <a href="#" className="categories-item">Business</a>
-                    <a href="#" className="categories-item">Entertainment</a>
-                    <a href="#" className="categories-item">Health</a>
-                    <a href="#" className="categories-item">Science</a>
-                    <a href="#" className="categories-item">Technology</a>
-                    <a href="#" className="categories-item">Sports</a>
+                    <Link to="/business">
+                        <li className="categories-item">Business</li>
+                    </Link>
+                    <Link to="/entertainment">
+                        <li className="categories-item">Entertainment</li>
+                    </Link> 
+                    <Link to="/health">
+                        <li className="categories-item">Health</li>
+                    </Link> 
+                    <Link to="/science">
+                        <li className="categories-item">Science</li>
+                    </Link> 
+                    <Link to="/technology">
+                        <li className="categories-item">Technology</li>
+                    </Link> 
+                    <Link to="/sports">
+                        <li className="categories-item">Sports</li>
+                    </Link>                 
                 </ul>
             </div>
         </header>

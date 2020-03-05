@@ -1,31 +1,21 @@
 import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
-import News from './components/News/News';
+import Home from './pages/Home/Home';
+import Business from './pages/Business/Business';
 
 function App() {
   return (
-    <Fragment>
-      <Header />
-
-      <div className="news-block">
-        <div className="big">
-          <News articleNumber="0" />
-        </div>
-        <div className="small">
-          <News articleNumber="2" />
-          <News articleNumber="3" />
-        </div>
-        <div className="small">
-          <News articleNumber="4" />
-          <News articleNumber="5" />
-        </div>
-        <div className="full">
-          <News articleNumber="7" />
-        </div>
-      </div>
-      
-    </Fragment>
+    <Router>
+      <Fragment>
+        <Header />
+        <Switch>
+          <Route path ="/" component={Home} />
+          <Route path ="/" component={Business} />          
+        </Switch>
+      </Fragment>
+    </Router>
   );
 }
 

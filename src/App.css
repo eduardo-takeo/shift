@@ -14,30 +14,3 @@ a:visited {
     text-decoration: none;
     color: #000;
 }
-
-.small {
-  width: 10rem;
-  font-size: .7rem;
-  margin: 2rem;
-}
-
-.medium {
-  width: 25rem;
-  margin: 2rem;
-}
-
-.big {
-  width: 45rem;
-  margin: 2rem;
-}
-
-.full {
-  width: 100%;
-  margin: 2rem;
-}
-
-.news-block {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}

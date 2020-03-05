@@ -18,17 +18,18 @@ class News extends Component {
             this.setState({news: data.articles[this.props.articleNumber]})
         })
         .catch(error => console.log(error));
-
     }
 
     render() {
+        const {url, urlToImage, title, description, author} = this.state.news;
+
         return(
             <div className="news">
-                <a href={this.state.news.url} target="_blank">
-                    <img src={this.state.news.urlToImage} alt="news-image" className="image" />
-                    <h2 className="title">{this.state.news.title}</h2>
-                    <p className="description">{this.state.news.description}</p>
-                    <span className="author">{this.state.news.author}</span>
+                <a href={url} target="_blank">
+                    <img src={urlToImage} alt="news-image" className="image" />
+                    <h2 className="title">{title}</h2>
+                    <p className="description">{description}</p>
+                    <span className="author">{author}</span>
                 </a>            
             </div>
         )
