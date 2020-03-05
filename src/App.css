@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -17,12 +17,12 @@ a:visited {
 
 .small {
   width: 10rem;
-  height: 2rem;
+  font-size: .7rem;
   margin: 2rem;
 }
 
 .medium {
-  width: 20rem;
+  width: 25rem;
   margin: 2rem;
 }
 

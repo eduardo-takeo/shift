@@ -14,9 +14,14 @@ function App() {
         </div>
         <div className="small">
           <News articleNumber="2" />
+          <News articleNumber="3" />
+        </div>
+        <div className="small">
+          <News articleNumber="4" />
+          <News articleNumber="5" />
         </div>
         <div className="full">
-          <News articleNumber="3" />
+          <News articleNumber="7" />
         </div>
       </div>
       

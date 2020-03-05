@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap');
+
 header {
     font-size: .8rem;
 }
@@ -8,6 +10,8 @@ header {
 }
 
 .logo {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
     font-size: 3rem;
     text-align: center;
     padding: 2rem 0;
