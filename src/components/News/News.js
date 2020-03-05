@@ -24,10 +24,12 @@ class News extends Component {
     render() {
         return(
             <div className="news">
-                <img src={this.state.news.urlToImage} alt="news-image" className="image" />
-                <h2 className="title">{this.state.news.title}</h2>
-                <p className="description">{this.state.news.description}</p>
-                <span className="author">{this.state.news.author}</span>
+                <a href={this.state.news.url} target="_blank">
+                    <img src={this.state.news.urlToImage} alt="news-image" className="image" />
+                    <h2 className="title">{this.state.news.title}</h2>
+                    <p className="description">{this.state.news.description}</p>
+                    <span className="author">{this.state.news.author}</span>
+                </a>            
             </div>
         )
     }
