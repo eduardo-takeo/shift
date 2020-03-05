@@ -3,7 +3,7 @@ import './Business.css';
 
 function Business() {
     return(
-        <div className="business-page">
+        <div>
             <h1>Business page</h1>
         </div>
     )

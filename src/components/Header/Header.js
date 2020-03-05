@@ -6,9 +6,16 @@ function Header() {
     return(
         <header>
             <div className="date">{getDate()}</div>
-            <div className="logo">Shift.</div>
+            
+            <Link to="/">
+                <div className="logo">Shift.</div>
+            </Link>
+
             <div className="categories">
                 <ul>
+                    <Link to="/">
+                        <li className="categories-item">General</li>
+                    </Link>
                     <Link to="/business">
                         <li className="categories-item">Business</li>
                     </Link>
