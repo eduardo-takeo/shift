@@ -1,12 +1,12 @@
-import React from 'react';
-import './Sports.css';
+import React, { Fragment } from 'react';
+import CategoryBody from '../../components/CategoryBody/CategoryBody';
 
 function Sports() {
-    return(
-        <div>
-            <h1>Sports page</h1>
-        </div>
-    )
+  return (
+    <Fragment>
+      <CategoryBody category='sports' />
+    </Fragment>
+  );
 }
 
 export default Sports;

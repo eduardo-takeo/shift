@@ -1,12 +1,12 @@
-import React from 'react';
-import './Health.css';
+import React, { Fragment } from 'react';
+import CategoryBody from '../../components/CategoryBody/CategoryBody';
 
 function Health() {
-    return(
-        <div>
-            <h1>Health page</h1>
-        </div>
-    )
+  return (
+    <Fragment>
+      <CategoryBody category='health' />
+    </Fragment>
+  );
 }
 
 export default Health;

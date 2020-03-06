@@ -1,12 +1,12 @@
-import React from 'react';
-import './Business.css';
+import React, { Fragment } from 'react';
+import CategoryBody from '../../components/CategoryBody/CategoryBody';
 
 function Business() {
-    return(
-        <div>
-            <h1>Business page</h1>
-        </div>
-    )
+  return (
+    <Fragment>
+      <CategoryBody category='business' />
+    </Fragment>
+  );
 }
 
 export default Business;

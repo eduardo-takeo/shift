@@ -1,12 +1,12 @@
-import React from 'react';
-import './Science.css';
+import React, { Fragment } from 'react';
+import CategoryBody from '../../components/CategoryBody/CategoryBody';
 
 function Science() {
-    return(
-        <div>
-            <h1>Science page</h1>
-        </div>
-    )
+  return (
+    <Fragment>
+      <CategoryBody category='science' />
+    </Fragment>
+  );
 }
 
 export default Science;

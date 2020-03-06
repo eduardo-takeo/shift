@@ -1,12 +1,12 @@
-import React from 'react';
-import './Technology.css';
+import React, { Fragment } from 'react';
+import CategoryBody from '../../components/CategoryBody/CategoryBody';
 
 function Technology() {
-    return(
-        <div>
-            <h1>Technology page</h1>
-        </div>
-    )
+  return (
+    <Fragment>
+      <CategoryBody category='technology' />
+    </Fragment>
+  );
 }
 
 export default Technology;

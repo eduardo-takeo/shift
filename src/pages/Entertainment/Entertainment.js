@@ -1,12 +1,12 @@
-import React from 'react';
-import './Entertainment.css';
+import React, { Fragment } from 'react';
+import CategoryBody from '../../components/CategoryBody/CategoryBody';
 
 function Entertainment() {
-    return(
-        <div>
-            <h1>Entertainment page</h1>
-        </div>
-    )
+  return (
+    <Fragment>
+      <CategoryBody category='entertainment' />
+    </Fragment>
+  );
 }
 
 export default Entertainment;
