@@ -9,6 +9,7 @@ import Health from './pages/Health/Health';
 import Science from './pages/Science/Science';
 import Technology from './pages/Technology/Technology';
 import Sports from './pages/Sports/Sports';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,14 +17,15 @@ function App() {
       <Fragment>
         <Header />
         <Switch>
-          <Route path ="/" exact component={Home} />
-          <Route path ="/business" component={Business} />
-          <Route path ="/entertainment" component={Entertainment} />
-          <Route path ="/health" component={Health} />
-          <Route path ="/science" component={Science} />
-          <Route path ="/technology" component={Technology} />
-          <Route path ="/sports" component={Sports} />
+          <Route path="/" exact component={Home} />
+          <Route path="/business" component={Business} />
+          <Route path="/entertainment" component={Entertainment} />
+          <Route path="/health" component={Health} />
+          <Route path="/science" component={Science} />
+          <Route path="/technology" component={Technology} />
+          <Route path="/sports" component={Sports} />
         </Switch>
+        <Footer />
       </Fragment>
     </Router>
   );
